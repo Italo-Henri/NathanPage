@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --color-orange: #ff7300;
+    --color-white: #ffffff;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    font-family: 'Montserrat', sans-serif;
+}

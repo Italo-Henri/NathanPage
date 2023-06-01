@@ -1,27 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/config.css">
     <link rel="stylesheet" href="src/css/style.css">
     <title>Nathanael Professor</title>
 </head>
 <body>
     <!-- CABECALHO -->
-    <header>
-        <nav>
-        <img src="src/img/logo.png" alt="logo Nathanael">
+    <header class="header">
+        <nav class="nav-bar">
+        <a href="#home"><img src="src/img/logo.png" alt="logo Nathanael" class="logo"></a>
 
-            <ul>
-                <li>Sobre</li>
-                <li>Local</li>
-                <li>Contato</li>
-                <li>Uma Palinha</li>
-                <li>Se Inscreva</li>
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a href="#local">Local</a></li>
+                <li class="nav-item"><a href="#contato">Contato</a></li>
+                <li class="nav-item"><a href="#palinha">Uma Palinha</a></li>
+                <li class="nav-btn"><a href="#">Se Inscreva</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- SECTIONS -->
+    <main>
+        <section class="home" id="home">
+            <div class="home-content">
+                <h1>
+                    <span>a melhor</span> <br> aula de <br> guitarra</h1> <br>
+    
+                <p>Aula de Guitarra em Brasília-DF do simples </p>
+                <p> para o avançado, bla bla bla bla...</p>
+    
+                <a href="#" class="btn-subscribe">Se Inscreva</a>
+            </div>
+        </section>
+    
+        <section class="sobre" id="sobre">
+    
+        </section>
+    </main>
+
 </body>
 </html>
