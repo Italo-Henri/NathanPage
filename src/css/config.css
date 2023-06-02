@@ -4,14 +4,14 @@
 :root {
     --color-orange: #ff7300;
     --color-white: #ffffff;
+    --color-circle: #231F20;
 }
-
 
 header {
     position: fixed;
     width: 100%;
 }
 
-ul {
+* {
     font-family: 'Montserrat', sans-serif;
 }
