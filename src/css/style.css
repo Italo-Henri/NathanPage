@@ -2,8 +2,7 @@
 
 .header {
     background-color: #ffffff;
-    height: 60px;
-    padding-left: 50px;
+    height: 65px;
 }
 
 .nav-bar {
@@ -15,6 +14,7 @@
 .logo {
     width: 145px;
     height: 55px;
+    margin-left: 52px;
 }
 
 .nav-list {
@@ -61,44 +61,43 @@
     height: 100vh;
 }
 
-.home-content {
+.home-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    float: left;
-    margin: 30px 50px 0px 170px;
+    width: 420px;
+    height: 300px;
+    border: 5px solid crimson;
+    box-sizing: border-box;
 }
 
-.home-content h1 {
+.home-container h1 {
     color: var(--color-white);
-    font-size: 150px;
     font-family: 'League Gothic', sans-serif;
     text-transform: uppercase;
     font-weight: 800;
-    line-height: 125px;
 }
 
-.home-content span {
+.home-container span {
     font-family: 'Montserrat', sans-serif;
     font-weight: 50;
     font-size: 30px;
     margin-left: 16px;
-    line-height: 0px;
 }
 
-.home-content p {
+.home-container p {
     font-family: 'Montserrat', sans-serif;
     color: var(--color-white);
     font-weight: 700;
 }
 
 .btn-subscribe {
-    padding: 7px 30px 7px 30px;
+    padding: 7px 30px;
     border: 5px solid var(--color-orange);
-    margin-top: 20px;
     color: var(--color-orange);
     border-radius: 19px;
+    margin-top: 15px;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -235,9 +234,60 @@
 }
 
 
-.sobre {
+.sobre-section {
     background-image: url(../img/background-sobre.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    color: var(--color-white);
+}
+
+.sobre-container {
+    width: 600px;
+    height: 500px;
+    /* border: 5px solid crimson; */
+    margin-left: 130px;
+}
+
+.sobre-container h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-bottom: 15px;
+    margin-top: -80px;
+    text-transform: uppercase;
+}
+
+.sobre-container h1 {
+    font-family: 'League Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 180px;
+    text-transform: uppercase;
+}
+
+.sobre-container span > h1 {
+    font-size: 38px;
+    margin-bottom: -35px;
+}
+
+.sobre-container p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.depoimento-section {
+    background-image: url(../img/background-depoimentos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: var(--color-white);
+}
+
+.contato-section {
+    background-image: url(../img/background-contato.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: var(--color-white);
 }

@@ -7,11 +7,15 @@
     --color-circle: #231F20;
 }
 
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #050304;
+}
+
 header {
     position: fixed;
     width: 100%;
-}
-
-* {
-    font-family: 'Montserrat', sans-serif;
 }
