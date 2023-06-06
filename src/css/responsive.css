@@ -1,0 +1,25 @@
+@media (min-width: 320px){
+    .home{
+        background-image: url(../img/320x480/background-home.png);
+    }
+}
+
+@media (min-width: 768px){
+    .home{
+        background-image: url(../img/768x1024/background-home.png);
+    }
+}
+
+@media (min-width: 1280px){
+    .home{
+        background-image: url(../img/1280x720/background-home.png);
+    }
+}
+
+@media (min-width: 1920px){
+    .home{
+        background-image: url(../img/1920x1080/background-home.png);
+        
+    }
+}
+
