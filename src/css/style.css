@@ -2,26 +2,24 @@
 
 .header {
     background-color: #ffffff;
-    height: 65px;
+    height: 9vh;
 }
 
 .nav-bar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .logo {
     width: 145px;
     height: 55px;
-    margin-left: 52px;
 }
 
 .nav-list {
     display: flex;
     gap: 40px;
     justify-content: end;
-    padding-right: 50px;
 }
 
 .nav-item a {
@@ -36,6 +34,7 @@
 .nav-item a:hover {
     background-color: var(--color-orange);
     color: var(--color-white);
+    opacity: 0.8;
 }
 
 .nav-btn a {
@@ -51,6 +50,7 @@
 
 .nav-btn a:hover {
     color: #000000;
+    opacity: 0.8;
 }
 
 /* SECTIONS */
@@ -59,8 +59,8 @@
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
+    justify-content: left;
+    padding-left: 13rem;
 }
 
 .home-container {
@@ -76,7 +76,6 @@
 }
 
 .home-container h1 {
-    color: var(--color-white); 
     font-family: 'League Gothic', sans-serif;
     text-transform: uppercase;
     font-weight: 800;
@@ -120,9 +119,11 @@
 
 
 .bonus-content {
-    background-image: url(../img/background-bonus.png);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
 }
 
@@ -132,6 +133,7 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
+    max-height: 800px;
 }
 
 .porcent-box {
@@ -258,7 +260,6 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     margin-bottom: 15px;
-    margin-top: -80px;
     text-transform: uppercase;
 }
 
